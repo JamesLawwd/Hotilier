@@ -1,29 +1,21 @@
-// let search =  document.querySelector('.search-box')
+(function ($) {
+    "use strict";
 
-// document.querySelector('.#search-icon').onclick = () => {
-//   search.classList.toggle('active');
-//   search.classList.remove('active');
+    // Testimonial
+    $(".testimonial-carousel").owlCarousel({
+        autoplay:true,
+        smartSpeed:1000,
+        margin:25,
+        dots:false,
+        loop:true,
+        nav:true,
+        navText:[
+            '<i class="bi bi-arrow-left"></i>',
+            '<i class="bi bi-arrow-right"></i>'
+        ],
 
-// }
+    })
+})
 
-// let navbar =  document.querySelector('.navbar')
-
-// document.querySelector('.#menu-icon').onclick = () => {
-//   search.classList.toggle('active');
-//   search.classList.remove('active');
-
-// }
-
-// window.onscroll = () => {
-//   search.classList.remove('active');
-//   search.classList.remove('active');
-
-// }
-
-// let header = document.querySelector('header')
-
-// window.addEventListener('scroll', () => {
-//   header.classList.toggle('shadow', window.scrollY > 0);
-// });
 
 

@@ -102,3 +102,21 @@ span{
     background: grey;
 
 }
+.section-item .service-icon{
+    margin: 0 auto 30px auto;
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+.service-item i,
+.service-item h5,
+.service-item p{
+    transition: 0.5s;
+}
+
+.service-item:hover i,
+.service-item:hover h5,
+.service-item:hover p{
+    color:black !important;
+}
+
