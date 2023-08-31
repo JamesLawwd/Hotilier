@@ -120,3 +120,30 @@ span{
     color:black !important;
 }
 
+/* Testimonial Section */
+.testimonial{
+    background: linear-gradient(rgba(15, 23,43,0.7), rgba(15, 23, 43, 0.7)),url(img/carousel.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial-carousel{
+    padding-left: 65px;
+    padding-right: 65px;
+
+}.testimonial-carousel .testimonial-item{
+    padding: 30px;
+}
+.testimonial-carousel .owl-nav{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: calc(50% - 20px);
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+
